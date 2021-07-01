@@ -1,0 +1,103 @@
+body {
+	background-color: #A2DED0;
+}
+
+.p-5 {
+    background-image:url('https://cdnimg.webstaurantstore.com/images/guides/694/coffee-preparing-header.jpg');
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    /* animation-direction: alternate; */
+}
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
+
+.mission {
+	background-color: #323232;
+	color: #F7FAFE;
+}
+
+.mission h3 {
+	font-family:'Raleway' 'sans-serif';
+	text-align: center;
+	position: center;
+	padding-top: 80px;
+}
+
+.order-button {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.features {
+	padding: 50px;
+}
+
+.features p {
+	font-family: 'Muli' 'sans-serif';
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+.embed-fluid {
+    text-align: center;
+    margin: 50px;
+}
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	color:#fff;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+	color:#fff;
+	vertical-align: middle;
+}
+
+.text-right {
+	float: right;
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
+}
